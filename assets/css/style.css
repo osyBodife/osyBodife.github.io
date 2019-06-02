@@ -11,17 +11,71 @@ body{
     width: 100%;
     font-size: 25px;
     margin-left: 200px;
-    background-color: #e40808;
+    background-color: red;
  
   
 }
 
 #menu{
-   height: 60px;  
+   height: 80px;  
+   background-color: #f2f2f2; 
     
 
 }
-li{
-    display: inline;
-    padding: 20px;
+
+
+#name{
+    color: white;
+    background-color: rgb(181, 223, 198);
+    height:60px ;
+    padding:20px  20px  0 20px;    
+    float: left;  
+    margin: 0 200px 0 200px;
+    
 }
+
+#about{
+    
+    height:60px ;
+    padding:20px  20px  0 20px;
+    color: black;
+    float: left;  
+    
+}
+
+
+#pfolio{
+    
+    height:60px ;
+    padding:20px  20px  0 20px;
+    color: black;
+    float: left;  
+    
+}
+
+#contact{    
+    height:60px ;
+    padding:20px  20px  0 20px;
+    color: black;
+    float: left;  
+    
+}
+
+
+div #name a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+div a{
+    text-decoration: none;
+    color: black;
+
+}
+
+#book{
+    clear: both;
+    overflow: auto;
+}
+

@@ -98,6 +98,18 @@ div a{
    
 
 }
+
+
+#galary{
+    margin: 30px  100px 50px 100px;     
+    background-color: white;
+    height: 650px;
+   
+
+}
+
+
+
 form{
     margin-right: 400px;
     font-size: 18px;
@@ -133,11 +145,22 @@ textarea{
     float: left;
 
 }
+#img_grp3{
+    clear: both;
+    overflow: 0;
+    float: left;
+
+}
+
 #img3{
     float: left;
 }
 
 #img4{
+    float: left;
+}
+
+#img5{
     float: left;
 }
 

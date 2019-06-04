@@ -134,6 +134,21 @@ img {
     margin: 0px 15px 0px 5px;
     
   }
+  #img1{
+    margin-left: 20px ;
+  }
+
+  #img_grp2 {
+    margin-top: 20px ;
+    margin-left: 20px ;
+
+}
+
+#img_grp3 {
+    margin-top: 20px;
+    margin-left: 20px ;
+
+}
     
 textarea{
     margin-left: 3px;

@@ -21,16 +21,17 @@
 }
 
 body{
+    background-color:rgb(199, 192, 192); 
+    text-align: center;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     
-    background-color: red;
 }
 
 #wrapper{
     width: 80%;
-    background-color: green;
-    position: relative;
-    top: 0px;
-    left:150px;
+    background-color:#c1d7d7;
+    margin: auto;
+    
 }
 .row::after {
   content: "";
@@ -59,30 +60,22 @@ html {
   padding: 0;
 }
 
-.menu li {
-  padding: 8px;
-  margin-bottom: 7px;
-  background-color: #33b5e5;
-  color: #ffffff;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+#maintext{
+    background-color:#ffffff;
+    
+}
+#bio_text {
+    text-align: left;
+    padding-top: 25px;
+    padding-left: 15px;
+    padding-bottom: 30px;
 }
 
-.menu li:hover {
-  background-color: #0099cc;
-}
+.footer {                  
 
-.aside {
-  background-color: #33b5e5;
-  padding: 15px;
-  color: #ffffff;
-  text-align: center;
-  font-size: 14px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-}
-
-.footer {
-  background-color: #0099cc;
-  color: #ffffff;
+    border-top: #00cc99 solid 5px;
+   background-color:#669999;
   text-align: center;
   font-size: 12px;
   padding: 15px;
@@ -133,44 +126,58 @@ html {
         
 
                 <div id="menu">
-              
-                        <div id="name"><a href="index.html" target="_blank" >Osy Odife</a></div>
-                        <div id="about"><a href="index.html" target="_blank">About</a></div>
-                        <div id="pfolio"><a href="portfolio.html" target="_blank">Portfolio   </a></div>
-                        <div id="contact"><a href="contact.html" target="_blank">Contact</a></div>        
+                        <div class="col-2 col-s-2 menu">
+                                <a href="index-02.html" target="_blank" >Osy Odife</a>
+                            </div>
+                            <div class="col-2 col-s-2 menu">
+                                    <a href="index-02.html" target="_blank" >About</a>
+                                </div>
+                                <div class="col-2 col-s-2 menu">
+                                        <a href="portfolio-02.html" target="_blank" >Portfolio</a>
+                                    </div>
+                                    <div class="col-2 col-s-2 menu">
+                                            <a href="contact-02.html" target="_blank" >Contact</a>
+                                        </div>
+
+
                             
                          </div> 
                         
               
 <div class="row">
-  <div class="col-3 col-s-3 menu">
-    <ul>
-      <li>The Flight</li>
-      <li>The City</li>
-      <li>The Island</li>
-      <li>The Food</li>
-    </ul>
+  <div class="col-1 col-s-1 menu">
+    
   </div>
 
-  <div class="col-6 col-s-9">
-    <h1>The City</h1>
-    <p>Chania is the capital of the Chania region on the island of Crete. The city can be divided in two parts, the old town and the modern city.</p>
-  </div>
+  
+  <div class="col-s-10">
+        
 
-  <div class="col-3 col-s-12">
-    <div class="aside">
-      <h2>What?</h2>
-      <p>Chania is a city on the island of Crete.</p>
-      <h2>Where?</h2>
-      <p>Crete is a Greek island in the Mediterranean Sea.</p>
-      <h2>How?</h2>
-      <p>You can reach Chania airport from all over Europe.</p>
-    </div>
-  </div>
+        <div id="maintext">
+                <div id="bio">
+                        <h4> About Me</h4>
+                </div>
+                <div class="col-s-3">
+                        <p><img src="assets/images/bio_image.JPG" alt="Osyodife" id="bio-image"> 
+
+                </div>
+    <p id="bio_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    
+    Lorem ipsum dolor <br>sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. 
+    Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit. </p>
+    
+
+
+</div>
+</div>
+
+<div class="col-1 col-s-1 menu">
+        
+      </div>
 </div>
 
 <div class="footer">
-  <p>Resize the browser window to see how the content respond to the resizing.</p>
+  <p>copyright &copy;</p>
 </div>
 </div>
 </body>

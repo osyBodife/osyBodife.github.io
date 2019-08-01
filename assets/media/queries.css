@@ -32,6 +32,19 @@
       margin-left: 20px;
 
     }
+    #main-form{
+      margin: 10px  50px 0px 40px;    
+     
+  
+  }
+  input{
+    width:75%;
+  }
+  textarea{
+    width: 75%;
+  }
+
+
   }
 
 

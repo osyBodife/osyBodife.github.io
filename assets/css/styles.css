@@ -11,7 +11,7 @@ body{
   }
 
 #container{
-    background-color:#b3cccc;
+    background-color: red;
     width: 80%;
     margin: auto;
     margin-top: 20px;
@@ -73,8 +73,17 @@ body{
      
 }
 
+
+#menus{
+   
+    background: linear-gradient(135deg, #e6ffff 20%, #b3ffff 60%, #66ffff 77%, #009999 );
+    
+     
+}
+
 #wrapper{
     background-color:#b3cccc;
+    margin-top: 0px;
 }
 
 #mainBio{
@@ -156,4 +165,118 @@ div #menu a{
 
 img{
     max-width: 100%;
+}
+#card{
+    margin-right: 75px;
+}
+#card1{
+    margin-left: 30px;
+    margin-right: 75px;
+}
+#skills, #projects,#linkedin{
+    padding-left: 50px;
+    margin-bottom: 20px;
+}
+.galleryItem:hover {
+    background-color: #544332;
+    color: #fff;
+    height: 200px;
+    line-height:50px;
+    display: block;
+    border-radius: 20px;
+}
+.galleryItem p {
+    display: none;
+}
+.galleryItem:hover p {
+    display: block;
+}
+
+
+
+/* Popup container - can be anything you want */
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+    visibility: hidden;
+    width: 300px;
+    background-color: #f9f052;
+    color: #000;
+    text-align: left;
+    border-radius: 6px;
+    padding: 8px 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+/* The actual popup for popuppwd */
+
+.poppwdinfo {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.poppwdinfo .poppwdinfotext {
+    visibility: hidden;
+    width: 400px;
+    background-color: #f9f052;
+    color: #000;
+    text-align: left;
+    border-radius: 6px;
+    padding: 8px 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+.poppwdinfo .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+
+#email_image{
+    padding-top: 30px;
+   
+}
+
+#img_email{
+    width: 90px;
+    height: 90px;
+    margin-left: 25px;
 }
